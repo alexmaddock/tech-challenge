@@ -24,7 +24,7 @@ Use best practices to write code which you follow in your day to day development
 - Ensure you provide a ***README.md*** file explaining how to run your code and the **ROLE that you are applying for**
 - **Avoid using .docx** files (this is not easy to read on git repositories)
 
-### REST API
+### REST API AUTOMATION
 
 Go to URL : https://www.weatherbit.io/api/swaggerui/weather-api-v2#/
 Create an automated regression for the below ACs
@@ -37,10 +37,10 @@ API documentation https://www.weatherbit.io/api/swaggerui/weather-api-v2#/
     - 1 point per test case executed
     - 2 points per Bug found and Documented
 
-Provide a reports of the exucution and any bugs found ( be creative )
+Provide a reports of the execution and any bugs found ( be creative )
 
 
-### WEB
+### WEB/ UI AUTOMATION
 
 Go to URL : http://phptravels.com/demo/
 
@@ -55,9 +55,7 @@ Create an automated smoke test suite using http://devexpress.github.io/testcafe/
 Provide a reports of the execution and any bugs found ( be creative )
 
 
-## EXTRA POINTS
-
-+ 10 points each
+## EXTRA POINTS (10 points each)
 
 
 1. Go to https://github.com/awslabs/aws-device-farm-sample-app-for-ios and run the below feature files
