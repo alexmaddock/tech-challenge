@@ -2,12 +2,12 @@
 
 ## Quality Engineering Principles
 
-Prevention over goalkeeping
-Risk based test coverage over systematic test coverage
-Testing skill over test detail
-Automation over manual (as much as possible)
-Fail as a team over Success as an individual
-Continuous Improvement over big bang changes
+- Prevention over goalkeeping
+- Risk based test coverage over systematic test coverage
+- Testing skill over test detail
+- Automation over manual (as much as possible)
+- Fail as a team over Success as an individual
+- Continuous Improvement over big bang changes
 
 ## Instruction for you mission:
 
