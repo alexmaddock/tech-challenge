@@ -12,7 +12,7 @@ jobs:
           keys:
           - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
-            
+
       - run: yarn install
 
       - save_cache:
@@ -25,14 +25,14 @@ jobs:
       - store_test_results:
           path: /tmp/test-results
 # Use a package of configuration called an orb.
-orbs:
-  # Declare a dependency on the welcome-orb
-  welcome: circleci/welcome-orb@0.4.1
-# Orchestrate or schedule a set of jobs
-workflows:
-  # Name the workflow "welcome"
-  welcome:
-    # Run the welcome/run job in its own container
-    jobs:
-      - welcome/run
+# orbs:
+#   # Declare a dependency on the welcome-orb
+#   welcome: circleci/welcome-orb@0.4.1
+# # Orchestrate or schedule a set of jobs
+# workflows:
+#   # Name the workflow "welcome"
+#   welcome:
+#     # Run the welcome/run job in its own container
+#     jobs:
+#       - welcome/run
  
