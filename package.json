@@ -1,0 +1,18 @@
+{
+  "name": "qe-tech-challenge",
+  "version": "1.0.0",
+  "description": "smoke test",
+  "main": "index.js",
+  "repository": "git@github.com:alexmaddock/tech-challenge.git",
+  "author": "alex maddock",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test:smoke": "testcafe chrome smoke_test.js --skip-js-errors",
+    "test:ci": "testcafe chrome:headless firefox:headless smoke_test.js -r xunit:/tmp/test-results/res.xml"
+  },
+  "devDependencies": {
+    "testcafe": "^1.8.1",
+    "testcafe-reporter-xunit": "^2.1.0"
+  }
+}

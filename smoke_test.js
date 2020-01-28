@@ -6,9 +6,9 @@ fixture `Smoke Test`
 test('flight bookings', async t => {
     await t
         .click(HomePage.flights)
-        .click(Hompage.roundTrip)
-        .type(HomePage.fromDestination, 'Brisbane')
-        .enter()
-        .type(HomePage.toDestination, 'Los Angeles')
-        .enter()
+        .click(HomePage.roundTrip)
+        .typeText(HomePage.fromDestination, 'Brisbane')
+        .pressKey('enter')
+        .typeText(HomePage.toDestination, 'New York')
+        .pressKey('enter')
 });
