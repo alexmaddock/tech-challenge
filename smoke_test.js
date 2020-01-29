@@ -1,5 +1,4 @@
 import HomePage from './page_objects/HomePage.js';
-import { Selector } from 'testcafe'
 
 fixture `Smoke Test`
     .page `https://www.phptravels.net/home`;
@@ -12,7 +11,7 @@ test('flight bookings', async t => {
         .click(HomePage.fromDestSelect)
         .typeText(HomePage.fromDestination, 'Brisbane')
         .click(HomePage.fromCitySelect)
-        
+
         .click(HomePage.toDestSelect)
         .typeText(HomePage.toDestination, 'New York')
         .click(HomePage.toCitySelect)
