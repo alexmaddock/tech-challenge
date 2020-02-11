@@ -21,13 +21,13 @@ test('flight bookings [basic.page.object.model]', async t => {
         
 });
 
-test('flight bookings [correct.page.object.model]', async () => {
+test.skip('flight bookings [correct.page.object.model]', async () => {
     await HomePage.selectFlightsOption();
     await HomePage.selectRoundTrip();
 
     await HomePage.fromDestinationSelect('Brisbane');
     await HomePage.fromCitySelect();
-    
+
     await HomePage.toDestinationSelect('New York');
     await HomePage.toCitySelect();
     
