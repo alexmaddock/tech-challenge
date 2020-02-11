@@ -15,9 +15,6 @@ test('flight bookings [basic.page.object.model]', async t => {
         .click(HomePage.toDestSelect)
         .typeText(HomePage.toDestination, 'New York')
         .click(HomePage.toCitySelect)
-
-        .click(HomePage.chooseFlightsStart)
-        .click(HomePage.datePickerNextArrow)
         
 });
 
